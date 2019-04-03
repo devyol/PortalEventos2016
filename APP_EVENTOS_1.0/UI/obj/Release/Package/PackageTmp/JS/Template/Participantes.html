@@ -1,0 +1,436 @@
+﻿<h3><ins>{{vista}}</ins></h3>
+<div><br /></div>
+
+<div class="row">
+    <div class="col-sm-8">
+        <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+            <input type="text" class="form-control" placeholder="Buscar" value="" ng-model="buscar.nombrec"/>
+        </div>
+    </div>
+</div>
+<div><br /></div>
+<div class="row">
+    <div class="col-sm-3">
+        <button type="button" class="btn btn-info btn-sm" ng-click="nuevo()">Registrar Participante</button>
+    </div>
+    <div class="col-sm-3">
+        <a href="" ng-click="LimpiarFiltro()" class="btn btn-info btn-sm">Limpiar Filtro</a>
+    </div>
+    <div class="col-sm-3">
+        <a href="" ng-click="actualizar()" class="btn btn-info btn-sm">Actualizar</a>
+    </div>	
+</div>
+
+<div><br /></div>
+<div><br /></div>
+
+<!------------------------------------Listado de Participantes------------------------------------->
+
+<div class="row">
+    <div class="col-sm-10">
+        <div class="table-responsive">
+            <table class="table table-condensed table-bordered table-striped table-advance flip-content" at-table at-paginated at-list="ListaParticipantes | filter:buscar" at-config="configList">
+                <thead>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td at-title="Participante" width="10%"><font color="black" size="2.5px">{{item.nombrec}}</font></td>                        
+                        <td at-title="Editar" width="1%"><button type="button" class="btn btn-link" ng-click="editar(item)"><i class="icon-edit"></i> Editar</button></td>
+                        <td at-title="Inscipciones" width="1%"><button type="button" class="btn btn-link" ng-click="irInscripcion(item)"><i class="icon-add-user"></i> Inscribir</button></td>
+                        <td at-title="Cobros" width="1%"><button type="button" class="btn btn-link" ng-click="irCobro(item)"><i class="icon-credit-card"></i> Cobrar</button></td>
+                    </tr>
+                </tbody>
+            </table>
+            <at-pagination at-list="ListaParticipantes" first-text="Primera" at-config="configList"></at-pagination>
+        </div>
+    </div>
+</div>
+
+<!------------------------------------Listado de Participantes------------------------------------->
+
+<!------------------------------------Modal para Editar o Registrar Nuevo Participante------------------------------------->
+
+        <div class="modal fade" id="ModalNuevoRegistro" role="dialog" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-body">                        
+                        <div class="panel panel-info">
+                            <div class="panel-heading"><strong>Nuevo Participante</strong></div>
+                            <div class="panel-body">
+                                <form class="form-horizontal" name ="frmParticipante">
+                                    <div class="form-group" ng-show="mostrarIdParticipante">
+                                        <label class="control-label col-sm-2"><strong>ID</strong></label>
+                                        <div class="col-sm-2">
+                                            <input type="text" class="form-control" ng-model="response.id" value="" ng-disabled="disabledID"/>
+                                        </div>                                        
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="inputNombre" class="control-label col-sm-2"><strong>Nombres</strong></label>
+                                        <div class="col-sm-9">
+                                            <input type="text" class="form-control" ng-model="response.nombre" placeholder="Nombres del Participante" required/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-2"><strong>Apellidos</strong></label>
+                                        <div class="col-sm-9">
+                                            <input type="text" class="form-control" ng-model="response.apellido" placeholder="Apellidos del Participante" required/>
+                                        </div>
+                                    </div>
+<!--                                    <div class="form-group">
+                                        <label class="control-label col-sm-2"><strong>Dirección</strong></label>
+                                        <div class="col-sm-9">
+                                            <input type="text" class="form-control" ng-model="response.direccion" placeholder="Dirección de Domicilio" required/>
+                                        </div>
+                                    </div>-->
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-2"><strong>Telefono</strong></label>
+                                        <div class="col-sm-3">
+                                            <input type="text" class="form-control" pattern="^\d{8}$" ng-model="response.telefono" placeholder="Ej. 22334455" maxlength="8" required/>
+                                        </div>
+                                    </div>
+                                    <!--<div class="form-group">
+                                        <label class="control-label col-sm-2"><strong>Correo</strong></label>
+                                        <div class="col-sm-4">
+                                            <input type="text" class="form-control" ng-model="response.correo" placeholder="Ej. nombre@dominio.com" required/>
+                                        </div>
+                                    </div>-->
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-2"><strong>Talla</strong></label>
+                                        <div class="col-sm-2">
+                                            <input type="text" class="form-control" ng-model="response.talla" placeholder="Talla de Camisa" required/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-2"><strong>Genéro</strong></label>
+                                        <div class="col-sm-2">
+                                            <select class="form-control" type="text" ng-model="response.genero_" ng-options="g.descripcion for g in generos" required></select>
+                                        </div>
+                                    </div>
+                                <!--<div class="form-group">
+                                        <label class="control-label col-sm-2" for="textinput"><strong>Fecha Nacimiento</strong></label>
+                                        <div class="col-sm-3">
+                                            <input type="text" class="form-control" ng-model="response.fecha_nacimiento" datepicker placeholder="Ej. dd/mm/yyyy" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-2"><strong>Alerjico</strong></label>
+                                        <div class="col-sm-2">
+                                            <select class="form-control" type="text" ng-model="response.alerjico_" ng-options="data.descripcion for data in esalergico" required></select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-2"><strong>Observaciones:</strong></label>
+                                        <div class="col-sm-9">
+                                            <textarea class="form-control" rows="2" ng-model="response.observaciones" placeholder="Escriba las posibles alergias del Partipante - 100 caracteres máximo"></textarea>                                            
+                                        </div>
+                                    </div>-->
+                                    <div class="form-group" ng-show="mostrarEstado">
+                                        <label class="control-label col-sm-2"><strong>Estado Registro</strong></label>
+                                        <div class="col-sm-3">
+                                            <select class="form-control" type="text" ng-model="response.estado_" ng-options="data.descripcion for data in estadoregistro"></select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-2"><strong>Usuario Gestión</strong></label>
+                                        <div class="col-sm-3">
+                                            <select class="form-control" type="text" 
+                                                    ng-model="usgestion" 
+                                                    ng-options="data.nombre for data in usuarios" required></select>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <br />
+                                        <br />
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-2"></div>
+                                        <div class="col-sm-10">
+                                            <button type="submit"  class="btn btn-info btn-sm" ng-click="guardar(response,g.genero,al.alerjico,usgestion.usuario,r.estado)">Guardar</button> <!--ng-disabled="frmParticipante.$invalid"-->
+                                            <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Cancel</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!------------------------------------Modal para Editar o Registra Nuevo Participante------------------------------------->
+
+
+<!------------------------------------Modal para Inscripciones y Opciones de Inscripciones------------------------------------->
+
+        <div class="modal fade bs-example-modal-lg" id="ModalInscribir" role="dialog" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-body">                        
+                        <div class="panel panel-info">
+                            <div class="panel-heading"><strong>Inscribir Participantes</strong></div>
+                            <div class="panel-body">
+                                <div ng-show="ViewInscripcion">
+                                    <div class="row">
+                                        <div class="col-sm-1" ng-show="false">
+                                            <input type="text" class="form-control" ng-model="response.id" ng-disabled="disabledID"/>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <label>Participante</label>
+                                        </div>
+                                        <div class="col-sm-7">
+                                            <input type="text" class="form-control" ng-model="response.nombrec" placeholder="Nombres del Participante" ng-disabled="disabledID"/>
+                                        </div>
+                                    </div>
+                                    <div><br /></div>
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <label>Evento:</label>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <select class="form-control"
+                                                    ng-options="a.nombre_evento for a in eventoinscripcion"
+                                                    ng-model="idEventoActivo">
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div><br /></div>
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <label>Usuario Gestión:</label>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <select class="form-control" type="text" 
+                                                    ng-model="usgestion" 
+                                                    ng-options="data.nombre for data in usuarios"></select>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <button type="button" class="btn btn-info" ng-click="inscribir(response,response.id,idEventoActivo.id_evento,usgestion.usuario)">Inscribir Participante</button>
+                                        </div>
+                                    </div>
+                                    <div><br /></div>
+                                    <div class="row" ng-show="listaEventosInscritos">
+                                        <div class="col-sm-12">
+                                            <div class="table-responsive">
+                                                <table class="table table-hover">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Participante</th>
+                                                            <th>Evento</th>
+                                                            <th>Eventos Inscritos</th>
+                                                            <th>Fecha Inscripción</th>
+                                                            <th>Opciones</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody ng-repeat="eins in eventoinscrito">
+                                                        <tr>
+                                                            <td><small>{{eins.id_participante}}</small></td>
+                                                            <td><small>{{eins.id_evento}}</small></td>
+                                                            <td><small>{{eins.nombre_evento}}</small></td>
+                                                            <td><small>{{eins.fecha_inscripcion}}</small></td>
+                                                            <td><small><button type="button" class="btn btn-link" ng-click="irOpcionesInscripciones(eins)"><i class="icon-credit-card"></i> Ir Opciones</button></small></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div ng-show="ViewOpcionesInscripcion">
+                                    <button type="button" class="btn btn-link" ng-click="volverListadoInscritos()"><i class="icon-arrow-with-circle-left"></i> Atrás</button>
+                                    <div><br /></div>
+                                    <div class="table-responsive">
+                                        <table class="table table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <th>Opción</th>
+                                                    <th>Precio</th>
+                                                    <th>Estado Opción</th>
+                                                    <th>Acción</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody ng-repeat="op in ListaOpcionesInscrito">
+                                                <tr>
+                                                    <!--<td><input class="checkbox" type="checkbox" name="name" value=" " /></td>-->
+                                                    <td><font size="2.5px">{{op.opcion}}</font></td>
+                                                    <td><font size="2.5px">Q. {{op.precio}}</font></td>
+                                                    <td><font size="2.5px">{{op.estador.descripcion}}</font></td>
+                                                    <td><button type="button" class="btn btn-info btn-sm" ng-click="ModificarOpcionInscripcion(op)" ng-disabled="{{op.estadoOpcion}}"><font size="1px">Modificar</font></button></td>
+                                                </tr>                                                
+                                            </tbody>                                            
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!------------------------------------Modal para Inscripciones y Opciones de Inscripciones------------------------------------->
+
+
+<!------------------------------------Modal para Gestion de Cobro------------------------------------->
+
+        <div class="modal fade bs-example-modal-lg" id="ModalCobrar" role="dialog" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-body">                        
+                        <div class="panel panel-info">
+                            <div class="panel-heading"><strong>Gestión de Cobros</strong></div>
+                            <div class="panel-body">                                
+                                <div ng-show="ViewCobros">
+                                    <div class="row">
+                                        <div class="col-sm-1" ng-show="false">
+                                            <input type="text" class="form-control" ng-model="response.id" ng-disabled="disabledID"/>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <label>Participante:</label>
+                                        </div>
+                                        <div class="col-sm-7">
+                                            <input type="text" class="form-control" ng-model="response.nombrec" placeholder="Nombres del Participante" ng-disabled="disabledID"/>
+                                        </div>
+                                    </div>
+                                    <div><br /></div>
+                                    <div><br /></div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="table-responsive">
+                                                <table class="table table-hover">
+                                                    <thead>
+                                                        <tr>
+                                                            <th ng-show="false">Participante</th>
+                                                            <th ng-show="false">Evento</th>
+                                                            <th>Eventos Inscritos</th>
+                                                            <th>Fecha Inscripción</th>
+                                                            <th>Costo Total</th>
+                                                            <th>Monto Abonado</th>
+                                                            <th>Saldo Pendiente</th>
+                                                            <th>Gestión</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody ng-repeat="saevins in saldoeventoinscrito">
+                                                        <tr>
+                                                            <td ng-show="false"><small>{{saevins.id_participante}}</small></td>
+                                                            <td ng-show="false"><small>{{saevins.id_evento}}</small></td>
+                                                            <td><small>{{saevins.nombre_evento}}</small></td>
+                                                            <td><small>{{saevins.fecha_inscripcion}}</small></td>
+                                                            <td><small>{{saevins.monto_total_evento}}</small></td>
+                                                            <td><small>{{saevins.monto_abonado}}</small></td>
+                                                            <td><small>{{saevins.saldo_pendiente}}</small></td>
+                                                            <td><small><button type="button" class="btn btn-link" ng-click="irDetalleCobro(saevins)"><i class="icon-credit-card"></i> Cobrar</button></small></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div ng-show="ViewDetalleCobro">
+                                    <button type="button" class="btn btn-link" ng-click="volverListadoEventosInscritos(saevins)"><i class="icon-arrow-with-circle-left"></i> Atrás</button>
+                                    <div><br /></div><!---->
+                                    <div class="row">
+                                        <div class="col-sm-9">
+                                            <div class="row">
+                                                <div class="col-sm-1" ng-show="false">
+                                                    <input type="text" class="form-control" ng-model="saldoEventoInscrito.id_evento" ng-disabled="disabledID"/>
+                                                </div>
+                                                <div class="col-sm-3">
+                                                    <label>Evento:</label>
+                                                </div>                                        
+                                                <div class="col-sm-7">
+                                                    <input type="text" class="form-control" ng-model="saldoEventoInscrito.nombre_evento" ng-disabled="disabledID"/>
+                                                </div>
+                                            </div>
+                                            <div><br /></div>
+                                            <div class="row">
+                                                <div class="col-sm-3">
+                                                    <label>Forma de Pago:</label>
+                                                </div>
+                                                <div class="col-sm-3">
+                                                    <select class="form-control"
+                                                            ng-options="a.descripcion for a in tipopago"
+                                                            ng-model="tpago">
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div><br /></div>
+                                            <div class="row">
+                                                <div class="col-sm-3">
+                                                    <label>Usuario Gestión:</label>
+                                                </div>
+                                                <div class="col-sm-2">
+                                                    <select class="form-control"
+                                                            ng-options="data.nombre for data in usuarios"
+                                                            ng-model="usgestion"></select>
+                                                </div>
+                                            </div>
+                                            <div><br /></div>
+                                            <div class="row">
+                                                <div class="col-sm-3">
+                                                    <label>Monto a Pagar:</label>
+                                                </div>                                        
+                                                <div class="col-sm-3">
+                                                    <input type="text" class="form-control" ng-model="valor" placeholder="Ingrese Monto Q"/>
+                                                </div>
+                                                <div class="col-sm-3">
+                                                    <button type="button" class="btn btn-info" ng-click="realizarCobro(saldoEventoInscrito,valor,tpago,usgestion.usuario)">Realizar Cobro</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <label><small> Costo Evento: Q{{saldoEventoInscrito.monto_total_evento}}</small></label>
+                                                </div>
+                                                <div class="col-sm-12">
+                                                    <label><small>Saldo Abonado: Q{{saldoEventoInscrito.monto_abonado}}</small></label>
+                                                </div>
+                                                <div class="col-sm-12">
+                                                    <label><small>Saldo Pendiente: Q{{saldoEventoInscrito.saldo_pendiente}}</small></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div><!---->
+                                    <div><br /></div>
+                                    <div><br /></div>
+                                    <div class="row" ng-show="listaMovimientosEventos">
+                                        <div class="col-sm-12">
+                                            <div class="table-responsive">
+                                                <table class="table table-hover">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>ID</th>
+                                                            <th>Tipo Pago</th>
+                                                            <th>Descripción</th>
+                                                            <th>Valor</th>
+                                                            <th>Fecha Movimiento</th>
+                                                            <th>Usuario Gestión</th>
+                                                            <th>Gestión</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody ng-repeat="mov in movimientosEvento">
+                                                        <tr>
+                                                            <td><small>{{mov.id_movimiento}}</small></td>
+                                                            <td><small>{{mov.tipo_pago_d}}</small></td>
+                                                            <td><small>{{mov.descripcion}}</small></td>
+                                                            <td><small>{{mov.valor}}</small></td>
+                                                            <td><small>{{mov.fecha_movimiento}}</small></td>
+                                                            <td><small>{{mov.usuario}}</small></td>
+                                                            <td><small><button type="button" class="btn btn-link" ng-click="imprimirRecibo(mov)"><i class="icon-credit-card"></i> Imprimir Recibo</button></small></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!---->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!------------------------------------Modal para Gestion de Cobro------------------------------------->

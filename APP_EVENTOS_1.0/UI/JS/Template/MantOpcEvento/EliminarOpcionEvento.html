@@ -1,0 +1,36 @@
+﻿<h3><ins>{{vistaEliminar}}</ins></h3>
+
+<a href="/MantenimientoOpcionEvento">Regresar</a>
+
+<div>
+    <br />
+</div>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>id</th>
+            <th>nombre</th>
+        </tr>
+    </thead>
+    <tbody ng-repeat="dato in response">
+        <tr>
+            <td>{{dato.id_evento}}</td>
+            <td>{{dato.nombre_evento}}</td>
+        </tr>
+    </tbody>
+</table>
+
+<form class="form-horizontal">
+    <div class="form-group">
+        <label class="control-label col-sm-2">Nombre</label>
+        <div class="col-sm-5">
+            <input class="form-control" type="text" ng-model="responseapi.descripcion" />
+        </div>
+    </div>
+
+</form>
+
+{{descr}}
+{{test}}
+     

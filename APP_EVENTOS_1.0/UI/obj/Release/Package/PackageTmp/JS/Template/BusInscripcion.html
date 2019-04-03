@@ -1,0 +1,218 @@
+﻿<!--<h3><ins>{{vista}}</ins></h3>
+
+<div><br /></div>-->
+
+<div class="row">
+    <div class="col-sm-6">
+        <div class="row">
+            <div class="col-sm-12">
+                <form class="form-inline">
+                    <div class="form-group">
+                        <label>Eventos:</label>
+                        <select class="form-control" 
+                                ng-options="a.nombre_evento for a in ListaEventos"
+                                ng-model="idEvento"
+                                ng-change="ObtenerParticipantes(idEvento)">
+                        </select>
+                    </div>       
+                </form>
+            </div>
+        </div>
+        <div><br /></div>
+        <div ng-show ="VerParticipantes">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+                        <input type="text" class="form-control" placeholder="Buscar" value="" ng-model="buscar.nombrec"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div><br /></div>
+        <div ng-show ="VerParticipantes">
+            <a href="" ng-click="LimpiarFiltro()" class="btn btn-info btn-sm">Limpiar Filtro</a>
+        </div>
+        <div><br /></div>
+        <div ng-show ="VerParticipantes">
+            <a href="" ng-click="ObtenerParticipantes(idEvento)" class="btn btn-info btn-sm">Actualizar</a>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div ng-show ="VerParticipantes">
+            <div class="panel panel-info">
+                <div class="panel-heading"><strong>Buses Disponibles</strong></div>
+                <div class="panel-body">
+                    <table class="table table-condensed table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th><small>Bus</small></th>
+                                <th><small>Disponibles</small></th>
+                                <th><small>Ocupados</small></th>
+                                <th><small>Hora Salida</small></th>
+                            </tr>
+                        </thead>
+                        <tbody ng-repeat="bus in ListaBuses">
+                            <tr>
+                                <td>{{bus.no_bus}}</td>
+                                <td>{{bus.disponible}}</td>
+                                <td>{{bus.ocupado}}</td>
+                                <td>{{bus.hora_salida}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div ng-show ="VerParticipantes">
+    <div class="row">
+        <div class="col-sm-10">
+            <div class="table-responsive">
+                <table class="table table-condensed table-bordered table-striped table-advance flip-content" at-table at-paginated at-list="ListaParticipantes | filter:buscar" at-config="configList">
+                    <thead>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td at-title="Participante" width="10%"><font color="black" size="2.5px">{{item.nombrec}}</font></td>                        
+                            <td at-title="Asignacion Bus" width="1%"><button type="button" class="btn btn-link" ng-click="irAsignarBus(item)"><i class="icon-edit"></i> Asignar</button></td>                            
+                        </tr>
+                    </tbody>
+                </table>
+                <at-pagination at-list="ListaParticipantes" first-text="Primera" at-config="configList"></at-pagination>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------------------------------Modal para Asignar Buses------------------------------------->
+
+<div class="modal fade bs-example-modal-lg" id="ModalBus" role="dialog" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-body">                        
+                <div class="panel panel-info">
+                    <div class="panel-heading"><strong>Asignar Bus al Participante</strong></div>
+                    <div class="panel-body">
+                        <div ng-show="ViewAsignacionBus">
+                            <div class="row">
+                                <div class="col-sm-1" ng-show="false">
+                                    <input type="text" class="form-control" ng-model="InfoParticipante.id" ng-disabled="disabledID"/>
+                                </div>
+                                <div class="col-sm-3">
+                                    <label>Participante</label>
+                                </div>
+                                <div class="col-sm-7">
+                                    <input type="text" class="form-control" ng-model="InfoParticipante.nombrec" placeholder="Nombres del Participante" ng-disabled="disabledID"/>
+                                </div>
+                            </div>
+                            <div><br /></div>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <label>Buses Disponibles:</label>
+                                </div>
+                                <div class="col-sm-6">
+                                    <select class="form-control"
+                                            ng-options="buses.descripcion for buses in ListaBusesDisponibles"
+                                            ng-model="ObjBus">
+                                    </select>
+                                </div>
+                            </div>                            
+                            <div><br /></div>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <label>Usuario Gestión:</label>
+                                </div>
+                                <div class="col-sm-6">
+                                    <select class="form-control" type="text" 
+                                            ng-model="usgestion" 
+                                            ng-options="data.nombre for data in usuarios"></select>
+                                </div>
+                                <div class="col-sm-3">
+                                    <button type="button" class="btn btn-info" ng-click="AsignarBus(InfoParticipante.id, InfoParticipante.idevento,ObjBus.id_bus,ObjBus.no_bus,usgestion.usuario)">Asignar Bus</button>
+                                </div>
+                            </div>
+                            <div><br /></div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="table-responsive">
+                                        <table class="table table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <th>Asignado en</th>
+                                                    <th>Hora de Salida</th>
+                                                    <th>Gestión</th>                                                            
+                                                </tr>
+                                            </thead>
+                                            <tbody ng-repeat="buses in busAsignadoParticipante">
+                                                <tr>
+                                                    <td><small>{{buses.descripcion}}</small></td>
+                                                    <td><small>{{buses.hora_salida}}</small></td>                                                            
+                                                    <td><small><button type="button" class="btn btn-link" ng-click="irModificarBus(buses)"><i class="icon-credit-card"></i> Modificar Bus</button></small></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div ng-show="ViewModificarBus">
+                            <button type="button" class="btn btn-link" ng-click="volverAsignacionBus()"><i class="icon-arrow-with-circle-left"></i> Atrás</button>
+                            <div><br /></div>                                    
+                            <div class="row">
+                                <!---->
+                                <div class="col-sm-1" ng-show="false">
+                                    <input type="text" class="form-control" ng-model="saldoEventoInscrito.id_evento" ng-disabled="disabledID"/>
+                                </div>
+                                <div class="col-sm-1" ng-show="false">
+                                    <input type="text" class="form-control" ng-model="busAsignadoDatoUnico.id_participante" ng-disabled="disabledID"/>
+                                </div>
+                                <div class="col-sm-1" ng-show="false">
+                                    <input type="text" class="form-control" ng-model="busAsignadoDatoUnico.id_evento" ng-disabled="disabledID"/>
+                                </div>
+                                <div class="col-sm-1" ng-show="false">
+                                    <input type="text" class="form-control" ng-model="busAsignadoDatoUnico.id_bus" ng-disabled="disabledID"/>
+                                </div>
+                                <!---->
+                                <div class="col-sm-3">
+                                    <label>Participante:</label>
+                                </div>                                        
+                                <div class="col-sm-7">
+                                    <input type="text" class="form-control" ng-model="InfoParticipante.nombrec" ng-disabled="disabledID"/>
+                                </div>
+                            </div>
+                            <div><br /></div>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <label>Buses Disponibles:</label>
+                                </div>
+                                <div class="col-sm-3">
+                                    <select class="form-control"
+                                            ng-options="busMod.descripcion for busMod in ListaBusesModificar"
+                                            ng-model="busModificar">
+                                    </select>
+                                </div>
+                            </div>
+                            <div><br /></div>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <label>Usuario Gestión:</label>
+                                </div>
+                                <div class="col-sm-3">
+                                    <select class="form-control"
+                                            ng-options="data.nombre for data in usuarios"
+                                            ng-model="usgestion"></select>
+                                </div>
+                                <div class="col-sm-3">
+                                    <button type="button" class="btn btn-info" ng-click="ModificarBus(busAsignadoDatoUnico.id_bus,busAsignadoDatoUnico.id_evento,busAsignadoDatoUnico.id_participante,busModificar.id_bus,busModificar.no_bus,usgestion.usuario)">Modificar Bus</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

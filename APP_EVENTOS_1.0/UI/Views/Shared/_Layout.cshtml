@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    @*<meta charset="utf-8" />*@
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />    
+    <link href="~/Content/StyleLayout2.0.css" rel="stylesheet" />
+    <link href="~/Content/fonts.css" rel="stylesheet" />
+    <link href="~/Content/jquery-ui.css" rel="stylesheet" />    
+    <script src="~/Scripts/jquery-1.9.1.min.js"></script>
+    @*<script src="~/Content/jquery.min.js"></script>*@
+    <script src="~/Content/jquery-ui.min.js"></script>
+    <script src="~/Scripts/jquery.ui.datepicker-es.js"></script>
+    <link href="~/Content/angular-material.css" rel="stylesheet" />
+    <link href="~/Content/docs.css" rel="stylesheet" />
+
+    
+    <title>@ViewBag.Title</title>    
+</head>
+<body>
+    
+     <div class="container-fluid">
+        <header>
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="~/">Eventos Juventud</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        @*<li class="active"><a href="/ListaParticipantes"><span class="icon-users"></span>Participantes</a></li>*@
+                    </ul>
+                </div>
+            </nav>
+        </header>
+         <div class="row">
+             <div class="col-sm-2">
+                <nav class="navbar navbar-inverse">
+                  <div class="container-fluid">
+                    <div class="navbar-header">
+                      <a class="navbar-brand" href="#">MENU</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                      <li><a href="/ListaParticipantes"><span class="icon-users"></span>Participantes</a></li>
+                      <li><a href="/AsignacionBusEvento">Asignacion Bus</a></li>
+                      <li><a href="/NotaDeCredito">Nota de Crédito</a></li>
+
+                      <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Reportes
+                        <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="/ListadoEvento">Listado por Evento</a></li>
+                          <li><a href="/ListadoSaldos">Saldos Evento</a></li>
+@*                          <li><a href="/MantenimientoParentesco">Catalogo-Parentesco</a></li> 
+                          <li><a href="/Inscripciones">Inscripciones</a></li>*@
+                        </ul>
+                      </li>
+
+                      <li><a href="/MantenimientoEvento">Eventos</a></li>
+                      <li><a href="/MantenimientoOpcionEvento">Opciones-Eventos</a></li>
+                      
+                      <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="icon-tools"></span>Mantenimientos
+                        <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="/MantenimientoEvento">Eventos</a></li>
+                          <li><a href="/MantenimientoOpcionEvento">Opciones-Eventos</a></li>
+                          <li><a href="/MantenimientoParentesco">Catalogo-Parentesco</a></li> 
+                          <li><a href="/Inscripciones">Inscripciones</a></li>
+                        </ul>
+                      </li>
+                      <!--<li><a href="#">Page 2</a></li> 
+                      <li><a href="#">Page 3</a></li>-->
+                    </ul>
+                  </div>
+                </nav>
+             </div>
+             <div class="col-sm-10">
+                 @RenderBody()
+             </div>
+         </div>
+                    
+    </div>
+    
+    <!-- Scripts AngularJs-->
+    <script src="~/Scripts/angular.js"></script>
+    <script src="~/Scripts/angular-animate.js"></script>
+    <script src="~/Scripts/angular-route.js"></script>
+    <script src="~/Scripts/angular-aria.js"></script>
+    <script src="~/Scripts/angular-messages.js"></script>    
+    <script src="~/Scripts/angular-sanitize.js"></script>
+    <script src="~/Scripts/angular-table.1.0.7.js"></script>
+
+    <script src="~/JS/Module/PrincipalApp.js"></script>
+    <script src="~/JS/Controller/EventoCtrl.js"></script>
+    <script src="~/JS/Controller/OpcionEventoCtrl.js"></script>
+    <script src="~/JS/Controller/ParentescoCtrl.js"></script>
+    <script src="~/JS/Controller/ParticipanteCtrl.js"></script>
+    <script src="~/JS/Controller/BusInscripcionCtrl.js"></script>
+    <script src="~/JS/Controller/NotaCreditoCtrl.js"></script>
+    <script src="~/JS/Controller/ReportesCtrl.js"></script>
+    <script src="~/JS/Services/ServicePost.js"></script>
+    <script src="~/JS/Services/serviceEvento.js"></script>
+    <script src="~/JS/directives/formsDirectives.js"></script>
+
+    <script src="~/Scripts/ui-bootstrap-tpls-2.1.3.min.js"></script>
+    <script src="~/Scripts/ui-bootstrap-tpls-2.1.4.min.js"></script>
+
+    
+    <!-- Scripts AngularJs-->
+
+    <script src="~/Scripts/bootstrap.js"></script>
+
+
+    
+
+    <!--<script src="~/Scripts/abrir.js"></script>-->
+    
+</body>
+</html>

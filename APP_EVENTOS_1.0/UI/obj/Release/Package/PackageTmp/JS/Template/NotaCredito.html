@@ -1,0 +1,170 @@
+﻿<h3><ins>{{vista}}</ins></h3>
+<div><br /></div>
+
+<div class="row">
+    <div class="col-sm-12">
+        <form class="form-inline">
+            <div class="form-group">
+                <label>Eventos:</label>
+                <select class="form-control" 
+                        ng-options="a.nombre_evento for a in ListaEventoNota"
+                        ng-model="idEventoNota"
+                        ng-change="ObtenerParticipantesNota(idEventoNota)">
+                </select>
+            </div>       
+        </form>
+    </div>
+</div>
+<div><br /></div>
+<div ng-show ="VerParticipantes">
+    <div class="row">
+        <div class="col-sm-8">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+                <input type="text" class="form-control" placeholder="Buscar" value="" ng-model="buscar.nombrec"/>
+            </div>
+        </div>
+    </div>
+</div>
+<div><br /></div>
+
+<div ng-show ="VerParticipantes">
+    <div class="row">
+        <div class="col-sm-3">
+            <a href="" ng-click="LimpiarFiltro()" class="btn btn-info btn-sm">Limpiar Filtro</a>
+        </div>
+        <div class="col-sm-3">
+            <a href="" ng-click="ObtenerParticipantesNota(idEventoNota)" class="btn btn-info btn-sm">Actualizar</a>
+        </div>	
+    </div>
+</div>
+<div><br /></div>
+
+<div ng-show ="VerParticipantes">
+    <div class="row">
+        <div class="col-sm-10">
+            <div class="table-responsive">
+                <table class="table table-condensed table-bordered table-striped table-advance flip-content" at-table at-paginated at-list="ListaParticipantesNota | filter:buscar" at-config="configList">
+                    <thead>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td at-title="Participante" width="10%"><font color="black" size="2.5px">{{item.nombrec}}</font></td>                        
+                            <td at-title="Gestionar Nota de Crédito" width="2%"><button type="button" class="btn btn-link" ng-click="irModalNota(item)"><i class="icon-edit"></i> Generar Nota</button></td>                            
+                        </tr>
+                    </tbody>
+                </table>
+                <at-pagination at-list="ListaParticipantesNota" first-text="Primera" at-config="configList"></at-pagination>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade bs-example-modal-lg" id="ModalNota" role="dialog" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-body">                        
+                <div class="panel panel-info">
+                    <div class="panel-heading"><strong>Gestión de Nota de Crédito</strong></div>
+                    <div class="panel-body">
+                        <div><br /></div>
+                        <div class="row">
+                            <div class="col-sm-9">
+                                <div class="row">
+                                    <div class="col-sm-1" ng-show="false">
+                                        <input type="text" class="form-control" ng-model="saldoParticipante.id_evento" ng-disabled="disabledID"/>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <label>Evento:</label>
+                                    </div>                                        
+                                    <div class="col-sm-7">
+                                        <input type="text" class="form-control" ng-model="saldoParticipante.nombre_evento" ng-disabled="disabledID"/>
+                                    </div>
+                                </div>
+                                <div><br /></div>
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <label>Forma de Acreditación:</label>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <select class="form-control"
+                                                ng-options="a.descripcion for a in tipopago"
+                                                ng-model="tpago">
+                                        </select>
+                                    </div>
+                                </div>
+                                <div><br /></div>
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <label>Usuario Gestión:</label>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <select class="form-control"
+                                                ng-options="data.nombre for data in usuarios"
+                                                ng-model="usgestion"></select>
+                                    </div>
+                                </div>
+                                <div><br /></div>
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <label>Monto a Acréditar:</label>
+                                    </div>                                        
+                                    <div class="col-sm-3">
+                                        <input type="text" class="form-control" ng-model="valor" placeholder="Ingrese Monto Q"/>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <button type="button" class="btn btn-info" ng-click="GenerarNota(saldoParticipante,valor,tpago,usgestion.usuario)">Generar Nota</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <label><small> Costo Evento: Q{{saldoParticipante.monto_total_evento}}</small></label>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <label><small>Saldo Abonado: Q{{saldoParticipante.monto_abonado}}</small></label>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <label><small>Saldo Pendiente: Q{{saldoParticipante.saldo_pendiente}}</small></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div><br /></div>
+                        <div><br /></div>
+                        <div class="col-sm-12">
+                            <div class="table-responsive">
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>ID</th>
+                                            <th>Tipo Acreditación</th>
+                                            <th>Descripción</th>
+                                            <th>Valor</th>
+                                            <th>Fecha Movimiento</th>
+                                            <th>Usuario Gestión</th>
+                                            <th>Gestión</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody ng-repeat="mov in cargosnotas">
+                                        <tr>
+                                            <td><small>{{mov.id_movimiento}}</small></td>
+                                            <td><small>{{mov.tipo_pago_d}}</small></td>
+                                            <td><small>{{mov.descripcion}}</small></td>
+                                            <td><small>{{mov.valor}}</small></td>
+                                            <td><small>{{mov.fecha_movimiento}}</small></td>
+                                            <td><small>{{mov.usuario}}</small></td>
+                                            <td><small><button type="button" class="btn btn-link" ng-click="imprimirRecibo(mov)"><i class="icon-credit-card"></i> Imprimir Nota</button></small></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

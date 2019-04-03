@@ -1,0 +1,36 @@
+﻿
+
+<div class="row">
+    <div class="col-sm-12">
+        <form class="form-inline">
+            <div class="form-group">
+                <label>Eventos:</label>
+                <select class="form-control" 
+                        ng-options="a.nombre_evento for a in eventos"
+                        ng-model="idEvento"
+                        ng-change="ObtenerReportes()">
+                </select>
+            </div>       
+        </form>
+    </div>
+</div>
+<br /><br />
+<div ng-show ="verListado">
+    <div class="row">
+        <div class="col-sm-3">
+            <a href="" ng-click="InscritosPorEventoPDF(idEvento)" class="btn btn-primary btn-lg">Listado de Inscritos - PDF</a>
+        </div>
+        <div class="col-sm-3">
+            <a href="" ng-click="InscritosPorEventoExcel(idEvento)" class="btn btn-primary btn-lg">Listado de Inscritos - Excel</a>
+        </div>	
+    </div>
+    <br />
+    <div class="row">   
+        <div class="col-sm-5">
+            <a href="" ng-click="opcionesInscritoPDF(idEvento)" class="btn btn-primary btn-lg">Listado de Opciones de Inscritos  - PDF</a>
+        </div>
+                <div class="col-sm-5">
+            <a href="" ng-click="opcionesInscritoExcel(idEvento)" class="btn btn-primary btn-lg">Listado de Opciones de Inscritos  - Excel</a>
+        </div>
+    </div>
+</div>

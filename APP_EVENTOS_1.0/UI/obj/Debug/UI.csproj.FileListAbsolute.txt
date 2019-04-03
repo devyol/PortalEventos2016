@@ -1,0 +1,599 @@
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\UI.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\UI.pdb
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\Antlr3.Runtime.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\EntityFramework.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\Microsoft.Data.Edm.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\Microsoft.Data.OData.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\Newtonsoft.Json.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\System.Spatial.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\System.Web.Helpers.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\System.Web.Http.OData.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\System.Web.Http.Tracing.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\System.Web.Mvc.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\System.Web.Optimization.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\System.Web.Providers.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\System.Web.Razor.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.Razor.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\WebGrease.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\EntityFramework.xml
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\Newtonsoft.Json.xml
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\System.Web.Helpers.xml
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\System.Web.Mvc.xml
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\System.Web.Razor.xml
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.xml
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.Razor.xml
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\System.Web.Http.Tracing.xml
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\System.Web.Http.OData.xml
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\Microsoft.Data.Edm.xml
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\Microsoft.Data.OData.xml
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\System.Spatial.xml
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\de\System.Spatial.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\es\System.Spatial.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\fr\System.Spatial.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\it\System.Spatial.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\ja\System.Spatial.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\ko\System.Spatial.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\ru\System.Spatial.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\obj\Debug\UI.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\obj\Debug\UI.pdb
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\UI.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\UI.pdb
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\Antlr3.Runtime.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\EntityFramework.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\Microsoft.Data.Edm.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\Microsoft.Data.OData.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\Newtonsoft.Json.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\System.Net.Http.Formatting.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\System.Spatial.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\System.Web.Helpers.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\System.Web.Http.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\System.Web.Http.OData.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\System.Web.Http.Tracing.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\System.Web.Http.WebHost.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\System.Web.Mvc.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\System.Web.Optimization.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\System.Web.Providers.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\System.Web.Razor.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\WebGrease.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\EntityFramework.xml
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\Newtonsoft.Json.xml
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\System.Net.Http.Formatting.xml
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\System.Web.Helpers.xml
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\System.Web.Http.xml
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\System.Web.Http.WebHost.xml
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\System.Web.Mvc.xml
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\System.Web.Razor.xml
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.xml
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\System.Web.Http.Tracing.xml
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\System.Web.Http.OData.xml
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\Microsoft.Data.Edm.xml
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\Microsoft.Data.OData.xml
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\System.Spatial.xml
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\de\System.Spatial.resources.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\es\System.Spatial.resources.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\fr\System.Spatial.resources.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\it\System.Spatial.resources.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\ja\System.Spatial.resources.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\ko\System.Spatial.resources.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\ru\System.Spatial.resources.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\obj\Debug\UI.dll
+C:\Users\Osman\Documents\3. App JVM\APP_EVENTOS_1.0\UI\obj\Debug\UI.pdb
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\UI.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\UI.pdb
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\Antlr3.Runtime.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\EntityFramework.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\Microsoft.Data.Edm.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\Microsoft.Data.OData.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\Microsoft.Web.Infrastructure.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\Newtonsoft.Json.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Spatial.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Helpers.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Http.OData.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Http.Tracing.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Mvc.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Optimization.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Providers.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Razor.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.Deployment.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.Razor.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\WebGrease.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\EntityFramework.xml
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\Newtonsoft.Json.xml
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Helpers.xml
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Mvc.xml
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Razor.xml
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.xml
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.Deployment.xml
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.Razor.xml
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Http.Tracing.xml
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Http.OData.xml
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\Microsoft.Data.Edm.xml
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\Microsoft.Data.OData.xml
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Spatial.xml
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\de\Microsoft.Data.Edm.resources.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\es\Microsoft.Data.Edm.resources.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\it\Microsoft.Data.Edm.resources.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\de\Microsoft.Data.OData.resources.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\es\Microsoft.Data.OData.resources.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\fr\Microsoft.Data.OData.resources.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\it\Microsoft.Data.OData.resources.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\ja\Microsoft.Data.OData.resources.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\ko\Microsoft.Data.OData.resources.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\ru\Microsoft.Data.OData.resources.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\de\System.Spatial.resources.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\es\System.Spatial.resources.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\fr\System.Spatial.resources.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\it\System.Spatial.resources.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\ja\System.Spatial.resources.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\ko\System.Spatial.resources.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\ru\System.Spatial.resources.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\zh-Hans\System.Spatial.resources.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\zh-Hant\System.Spatial.resources.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\obj\Debug\UI.dll
+D:\Multimedia\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\obj\Debug\UI.pdb
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\UI.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\UI.pdb
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\Antlr3.Runtime.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\EntityFramework.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\Microsoft.Data.Edm.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\Microsoft.Data.OData.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\Newtonsoft.Json.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Spatial.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Helpers.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Http.OData.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Http.Tracing.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Mvc.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Optimization.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Providers.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Razor.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.Razor.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\WebGrease.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\EntityFramework.xml
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\Newtonsoft.Json.xml
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Helpers.xml
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Mvc.xml
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Razor.xml
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.xml
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.Razor.xml
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Http.Tracing.xml
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Http.OData.xml
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\Microsoft.Data.Edm.xml
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\Microsoft.Data.OData.xml
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Spatial.xml
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\de\System.Spatial.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\es\System.Spatial.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\fr\System.Spatial.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\it\System.Spatial.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\ja\System.Spatial.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\ko\System.Spatial.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\ru\System.Spatial.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\obj\Debug\UI.dll
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\obj\Debug\UI.pdb
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\UI.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\UI.pdb
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\Antlr3.Runtime.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\EntityFramework.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\Microsoft.Data.Edm.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\Microsoft.Data.OData.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\Newtonsoft.Json.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Spatial.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Helpers.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Http.OData.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Http.Tracing.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Mvc.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Optimization.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Providers.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Razor.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.Razor.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\WebGrease.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\EntityFramework.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\Newtonsoft.Json.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Helpers.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Mvc.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Razor.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.Razor.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Http.Tracing.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Http.OData.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\Microsoft.Data.Edm.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\Microsoft.Data.OData.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Spatial.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\de\System.Spatial.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\es\System.Spatial.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\fr\System.Spatial.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\it\System.Spatial.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\ja\System.Spatial.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\ko\System.Spatial.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\ru\System.Spatial.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\obj\Debug\UI.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\obj\Debug\UI.pdb
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\obj\Debug\RdlCompile.cache
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\obj\Debug\RdlCompile.compiled
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\obj\Debug\RdlCompile.cache
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\obj\Debug\RdlCompile.compiled
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\eriky\Desktop\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\UI.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\UI.pdb
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\Antlr3.Runtime.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\EntityFramework.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\Microsoft.Data.Edm.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\Microsoft.Data.OData.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\Newtonsoft.Json.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Spatial.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Helpers.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Http.OData.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Http.Tracing.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Mvc.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Optimization.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Providers.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Razor.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.Razor.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\WebGrease.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\EntityFramework.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\Newtonsoft.Json.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Helpers.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Mvc.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Razor.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.Razor.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Http.Tracing.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Web.Http.OData.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\Microsoft.Data.Edm.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\Microsoft.Data.OData.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\System.Spatial.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\de\System.Spatial.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\es\System.Spatial.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\fr\System.Spatial.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\it\System.Spatial.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\ja\System.Spatial.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\ko\System.Spatial.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\ru\System.Spatial.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\obj\Debug\RdlCompile.cache
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\obj\Debug\RdlCompile.compiled
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\obj\Debug\UI.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP ACTUAL\APP_EVENTOS_1.0\APP_EVENTOS_1.0\UI\obj\Debug\UI.pdb
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\UI.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\UI.pdb
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\Antlr3.Runtime.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\EntityFramework.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\Microsoft.Data.Edm.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\Microsoft.Data.OData.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\Newtonsoft.Json.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\System.Spatial.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\System.Web.Helpers.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\System.Web.Http.OData.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\System.Web.Http.Tracing.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\System.Web.Mvc.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\System.Web.Optimization.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\System.Web.Providers.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\System.Web.Razor.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.Razor.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\WebGrease.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\EntityFramework.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\Newtonsoft.Json.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\System.Web.Helpers.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\System.Web.Mvc.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\System.Web.Razor.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.Razor.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\System.Web.Http.Tracing.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\System.Web.Http.OData.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\Microsoft.Data.Edm.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\Microsoft.Data.OData.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\System.Spatial.xml
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\de\System.Spatial.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\es\System.Spatial.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\fr\System.Spatial.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\it\System.Spatial.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\ja\System.Spatial.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\ko\System.Spatial.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\ru\System.Spatial.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\obj\Debug\RdlCompile.cache
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\obj\Debug\RdlCompile.compiled
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\obj\Debug\UI.dll
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\obj\Debug\UI.pdb
+C:\Users\eyol\Documents\Erik\MULTIMEDIA\Proyecto Eventos\APP_EVENTOS_2.0\APP_EVENTOS_1.0\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\UI.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\UI.pdb
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\Antlr3.Runtime.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\EntityFramework.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\Microsoft.Data.Edm.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\Microsoft.Data.OData.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\Newtonsoft.Json.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\System.Net.Http.Formatting.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\System.Spatial.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\System.Web.Helpers.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\System.Web.Http.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\System.Web.Http.OData.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\System.Web.Http.Tracing.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\System.Web.Http.WebHost.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\System.Web.Mvc.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\System.Web.Optimization.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\System.Web.Providers.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\System.Web.Razor.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\WebGrease.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\EntityFramework.xml
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\Newtonsoft.Json.xml
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\System.Net.Http.Formatting.xml
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\System.Web.Helpers.xml
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\System.Web.Http.xml
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\System.Web.Http.WebHost.xml
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\System.Web.Mvc.xml
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\System.Web.Razor.xml
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.xml
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\System.Web.Http.Tracing.xml
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\System.Web.Http.OData.xml
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\Microsoft.Data.Edm.xml
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\Microsoft.Data.OData.xml
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\System.Spatial.xml
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\de\System.Spatial.resources.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\es\System.Spatial.resources.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\fr\System.Spatial.resources.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\it\System.Spatial.resources.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\ja\System.Spatial.resources.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\ko\System.Spatial.resources.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\ru\System.Spatial.resources.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\obj\Debug\RdlCompile.cache
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\obj\Debug\RdlCompile.compiled
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\obj\Debug\UI.dll
+C:\Users\Erik\Documents\FUENTES\APP_EVENTOS_1.0\UI\obj\Debug\UI.pdb
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\UI.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\UI.pdb
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\Antlr3.Runtime.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\EntityFramework.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\Microsoft.Data.Edm.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\Microsoft.Data.OData.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\Newtonsoft.Json.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\System.Spatial.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\System.Web.Helpers.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\System.Web.Http.OData.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\System.Web.Http.Tracing.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\System.Web.Mvc.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\System.Web.Optimization.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\System.Web.Providers.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\System.Web.Razor.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\WebGrease.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\EntityFramework.xml
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\Newtonsoft.Json.xml
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\System.Web.Helpers.xml
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\System.Web.Mvc.xml
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\System.Web.Razor.xml
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.xml
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\System.Web.Http.Tracing.xml
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\System.Web.Http.OData.xml
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\Microsoft.Data.Edm.xml
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\Microsoft.Data.OData.xml
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\System.Spatial.xml
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\de\System.Spatial.resources.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\es\System.Spatial.resources.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\fr\System.Spatial.resources.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\it\System.Spatial.resources.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\ja\System.Spatial.resources.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\ko\System.Spatial.resources.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\ru\System.Spatial.resources.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\obj\Debug\RdlCompile.cache
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\obj\Debug\RdlCompile.compiled
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\obj\Debug\UI.dll
+C:\Users\Erik\Documents\APP SOURCE\BK APP_EVENTOS\APP_EVENTOS_1.0\UI\obj\Debug\UI.pdb

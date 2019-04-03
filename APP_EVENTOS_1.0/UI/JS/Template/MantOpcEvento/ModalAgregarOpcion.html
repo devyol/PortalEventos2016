@@ -1,0 +1,28 @@
+﻿
+    <!-- Modal content-->
+<div class="modal fade" id="ModalEliminar" role="dialog" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" ng-click="cancel()" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Modal Header</h4>
+          </div>
+          <div class="modal-body">          
+              {{otraVariable}} - aqui esta un scope del ctrl modal
+              <div>{{idEvento}}</div>
+              <div>{{iddelevento}}</div>
+              <form class="form-horizontal">
+                  <div class="form-group">
+                      <label class="control-label col-sm-2">id Evento</label>
+                      <div class="col-sm-10">
+                          <input type="text" class="form-control" ng-model="response.id_evento" value="" />
+                      </div>
+                  </div>
+              </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" ng-click="cancel()" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+    </div>
+</div>

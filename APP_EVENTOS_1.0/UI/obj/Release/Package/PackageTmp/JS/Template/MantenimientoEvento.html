@@ -1,0 +1,99 @@
+﻿<h3><ins>{{vista}}</ins></h3>
+<br />
+
+        <button type="button" class="btn btn-info btn-sm" ng-click="nuevo()">Nuevo Evento</button>
+
+<!----------------------------------------------Listado de Eventos-------------------------------------------------->
+
+        <table class="table table-hover">            
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Evento</th>
+                    <th>Fecha de Inicio</th>
+                    <th>Fecha de Finalización</th>
+                    <th>Estado del Evento</th>
+                    <th>Editar</th>
+                </tr>
+            </thead>
+            <tbody ng-repeat="ev in eventos">            
+                <tr>
+                    <td><small>{{ev.id_evento}}</small></td>
+                    <td><small>{{ev.nombre_evento}}</small></td>
+                    <td><small>{{ev.fecha_inicio}}</small></td>
+                    <td><small>{{ev.fecha_fin}}</small></td>
+                    <td><small>{{ev.estado_registro}}</small></td>
+                    <td><button type="button" class="btn btn-link" ng-click="editar(ev)"><i class="icon-edit"></i></button></td>                    
+                </tr>
+            </tbody>
+        </table>
+
+<!----------------------------------------------Listado de Eventos-------------------------------------------------->
+
+<!------------------------------------Modal para Editar o Registrar Nuevo Evento------------------------------------->
+
+        <div class="modal fade" id="myModal" role="dialog" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-body">                        
+                        <div class="panel panel-info">
+                            <div class="panel-heading"><strong>Nuevo Evento</strong></div>
+                            <div class="panel-body">
+                                <form class="form-horizontal">
+                                    <div class="form-group" ng-show="mostrarid">
+                                        <label class="control-label col-sm-2"><strong>ID</strong></label>
+                                        <div class="col-sm-1">
+                                            <input type="text" class="form-control" ng-model="" value="" ng-disabled="disabledID"/>
+                                        </div>                                        
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-2"><strong>Nombre Evento</strong></label>
+                                        <div class="col-sm-8">
+                                            <input type="text" class="form-control" ng-model="response.nombre_evento" placeholder="Nombre del Evento" value="" required/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-2"><strong>Inicio de Evento</strong></label>
+                                        <div class="col-sm-8">
+                                            <input type="text" class="form-control" ng-model="response.fecha_inicio" placeholder="Ej. dd/mm/yyyy" value="" required/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-2"><strong>Fin de Evento</strong></label>
+                                        <div class="col-sm-8">
+                                            <input type="text" class="form-control" ng-model="response.fecha_fin" placeholder="Ej. dd/mm/yyyy" value="" required/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group" ng-show="mostrarEstado">
+                                        <label class="control-label col-sm-2"><strong>Estado Evento</strong></label>
+                                        <div class="col-sm-1">
+                                            <input type="text" class="form-control" ng-model="response.estado_registro" placeholder="Ingres A activo o B inactivo" value="" required/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-2"><strong>Usuario Gestión</strong></label>
+                                        <div class="col-sm-3">
+                                            <select class="form-control" type="text" ng-model="x" ng-options="data.nombre for data in usuarios"></select>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <br />
+                                        <br />
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-2"></div>
+                                        <div class="col-sm-10">
+                                            <button type="button" class="btn btn-success btn-sm" ng-click="guardar(response,x.usuario)">Guardar</button>
+                                            <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Cancel</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!------------------------------------Modal para Editar o Registra Nuevo Evento------------------------------------->
+

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dtsRecibo" targetNamespace="http://tempuri.org/dtsRecibo.xsd" xmlns:mstns="http://tempuri.org/dtsRecibo.xsd" xmlns="http://tempuri.org/dtsRecibo.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dtsRecibo" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dtsRecibo" msprop:Generator_UserDSName="dtsRecibo">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtsRecibo" msprop:Generator_TableClassName="dtsReciboDataTable" msprop:Generator_TableVarName="tabledtsRecibo" msprop:Generator_RowChangedName="dtsReciboRowChanged" msprop:Generator_TablePropName="_dtsRecibo" msprop:Generator_RowDeletingName="dtsReciboRowDeleting" msprop:Generator_RowChangingName="dtsReciboRowChanging" msprop:Generator_RowEvHandlerName="dtsReciboRowChangeEventHandler" msprop:Generator_RowDeletedName="dtsReciboRowDeleted" msprop:Generator_RowClassName="dtsReciboRow" msprop:Generator_UserTableName="dtsRecibo" msprop:Generator_RowEvArgName="dtsReciboRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="numero_recibo" msprop:Generator_ColumnVarNameInTable="columnnumero_recibo" msprop:Generator_ColumnPropNameInRow="numero_recibo" msprop:Generator_ColumnPropNameInTable="numero_reciboColumn" msprop:Generator_UserColumnName="numero_recibo" type="xs:string" minOccurs="0" />
+              <xs:element name="opcion" msprop:Generator_ColumnVarNameInTable="columnopcion" msprop:Generator_ColumnPropNameInRow="opcion" msprop:Generator_ColumnPropNameInTable="opcionColumn" msprop:Generator_UserColumnName="opcion" type="xs:string" minOccurs="0" />
+              <xs:element name="precio" msprop:Generator_ColumnVarNameInTable="columnprecio" msprop:Generator_ColumnPropNameInRow="precio" msprop:Generator_ColumnPropNameInTable="precioColumn" msprop:Generator_UserColumnName="precio" type="xs:string" minOccurs="0" />
+              <xs:element name="valor" msprop:Generator_ColumnVarNameInTable="columnvalor" msprop:Generator_ColumnPropNameInRow="valor" msprop:Generator_ColumnPropNameInTable="valorColumn" msprop:Generator_UserColumnName="valor" type="xs:string" minOccurs="0" />
+              <xs:element name="nombre_evento" msprop:Generator_ColumnVarNameInTable="columnnombre_evento" msprop:Generator_ColumnPropNameInRow="nombre_evento" msprop:Generator_ColumnPropNameInTable="nombre_eventoColumn" msprop:Generator_UserColumnName="nombre_evento" type="xs:string" minOccurs="0" />
+              <xs:element name="nombre_participante" msprop:Generator_ColumnVarNameInTable="columnnombre_participante" msprop:Generator_ColumnPropNameInRow="nombre_participante" msprop:Generator_ColumnPropNameInTable="nombre_participanteColumn" msprop:Generator_UserColumnName="nombre_participante" type="xs:string" minOccurs="0" />
+              <xs:element name="fecha_movimiento" msprop:Generator_ColumnVarNameInTable="columnfecha_movimiento" msprop:Generator_ColumnPropNameInRow="fecha_movimiento" msprop:Generator_ColumnPropNameInTable="fecha_movimientoColumn" msprop:Generator_UserColumnName="fecha_movimiento" type="xs:string" minOccurs="0" />
+              <xs:element name="monto_total_evento" msprop:Generator_ColumnVarNameInTable="columnmonto_total_evento" msprop:Generator_ColumnPropNameInRow="monto_total_evento" msprop:Generator_ColumnPropNameInTable="monto_total_eventoColumn" msprop:Generator_UserColumnName="monto_total_evento" type="xs:string" minOccurs="0" />
+              <xs:element name="monto_abonado" msprop:Generator_ColumnVarNameInTable="columnmonto_abonado" msprop:Generator_ColumnPropNameInRow="monto_abonado" msprop:Generator_ColumnPropNameInTable="monto_abonadoColumn" msprop:Generator_UserColumnName="monto_abonado" type="xs:string" minOccurs="0" />
+              <xs:element name="saldo_pendiente" msprop:Generator_ColumnVarNameInTable="columnsaldo_pendiente" msprop:Generator_ColumnPropNameInRow="saldo_pendiente" msprop:Generator_ColumnPropNameInTable="saldo_pendienteColumn" msprop:Generator_UserColumnName="saldo_pendiente" type="xs:string" minOccurs="0" />
+              <xs:element name="no_bus" msprop:Generator_ColumnVarNameInTable="columnno_bus" msprop:Generator_ColumnPropNameInRow="no_bus" msprop:Generator_ColumnPropNameInTable="no_busColumn" msprop:Generator_UserColumnName="no_bus" type="xs:string" minOccurs="0" />
+              <xs:element name="hora_salida" msprop:Generator_ColumnVarNameInTable="columnhora_salida" msprop:Generator_ColumnPropNameInRow="hora_salida" msprop:Generator_ColumnPropNameInTable="hora_salidaColumn" msprop:Generator_UserColumnName="hora_salida" type="xs:string" minOccurs="0" />
+              <xs:element name="nota" msprop:Generator_ColumnVarNameInTable="columnnota" msprop:Generator_ColumnPropNameInRow="nota" msprop:Generator_ColumnPropNameInTable="notaColumn" msprop:Generator_UserColumnName="nota" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,164 @@
+﻿<h3><ins>{{vista}}</ins></h3>
+<br />
+
+
+<!------------------------------------Combo que muestra los Eventos Activos------------------------------------->
+<div>
+    <form class="form-inline">
+        <div class="form-group">
+            <label>Eventos Activos:</label>
+                <select class="form-control" 
+                        ng-options="a.nombre_evento for a in response"
+                        ng-model="idEvento"
+                        ng-change="obtenerOpciones(idEvento)">
+                </select>
+        </div>
+        <div class="form-group">
+            <button type="button" class="btn btn-info btn-sm" ng-click="nuevo()">Nueva Opcion-Evento</button>
+        </div>        
+    </form>
+</div>
+<!------------------------------------Combo que muestra los Eventos Activos------------------------------------->
+<div>
+    <br />
+</div>
+
+<!------------------------------------Tabla que muestra la Informacion del Combo de Eventos Activos------------------------------------->
+<div class="row" ng-show="mostrarOpciones">
+    <div class="col-sm-12">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th ng-show="false">Id</th>
+                    <th ng-show="false">Evento</th>                    
+                    <th>Opcion Evento</th>
+                    <th>Precio</th>
+                    <th>Editar</th>
+                    <th>Eliminar</th>
+                </tr>
+            </thead>
+            <tbody ng-repeat="x in opciones">
+                <tr>
+                    <td ng-show="false"><small>{{x.id}}</small></td>
+                    <td ng-show="false"><small>{{x.evento}}</small></td>
+                    <td><small>{{x.descripcion}}</small></td>
+                    <td><small>{{x.precio}}</small></td>                    
+                    <td><button type="button" class="btn btn-link" ng-click="editar(x)"><i class="icon-edit"></i></button></td>                    
+                    <td><button type="button" class="btn btn-link" ng-click="elimina(x)"><i class="icon-trash"></i></button></td>
+                    
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<!------------------------------------Tabla que muestra la Informacion del Combo de Eventos Activos------------------------------------->
+
+
+<!------------------------------------Modal para Editar o Registrar Nuevo Evento------------------------------------->
+        <div class="modal fade" id="ModalGuardar" role="dialog" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-body">                        
+                        <div class="panel panel-info">
+                            <div class="panel-heading"><strong>Nueva Opción Evento</strong></div>
+                            <div class="panel-body">
+                                <form class="form-horizontal">
+                                    <div class="form-group" ng-show="mostrarcomboeventos">
+                                        <label class="control-label col-sm-2">Eventos Activos:</label>
+                                        <div class="col-sm-10">
+                                            <select class="form-control"
+                                                    ng-options="a.nombre_evento for a in resp"
+                                                    ng-model="idEventoNuevo">
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group" ng-show="mostraridevento">
+                                        <label class="control-label col-sm-2"><strong>Id Evento</strong></label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" ng-model="infoOpcion.evento" placeholder="id evento" value="" required/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group" ng-show="mostraridopcion">
+                                        <label class="control-label col-sm-2"><strong>Id Opcion</strong></label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" ng-model="infoOpcion.id" placeholder="id opcion" value="" required/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-2"><strong>Nombre de Opción</strong></label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" ng-model="infoOpcion.descripcion" placeholder="Nombre de la Opción" value="" required/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-2"><strong>Precio: Q</strong></label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" ng-model="infoOpcion.precio" placeholder="Precio" value="" required/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-2"><strong>Usuario Gestión</strong></label>
+                                        <div class="col-sm-3">
+                                            <select class="form-control" type="text" ng-model="x" ng-options="data.nombre for data in usuarios"></select>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <br />
+                                        <br />
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-2"></div>
+                                        <div class="col-sm-10">
+                                            <button type="button" class="btn btn-success btn-sm" ng-click="guardar(infoOpcion,x.usuario,idEventoNuevo.id_evento)">Guardar</button>
+                                            <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal" ng-change="obtenerOpciones(infoOpcion.evento)">Cancel</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!------------------------------------Modal para Editar o Registra Nuevo Evento------------------------------------->
+
+        <div class="modal fade" id="ModalEliminar" role="dialog" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-body">                        
+                        <div class="panel panel-info">
+                            <div class="panel-heading"><strong>Nuevo Participante</strong></div>
+                            <div class="panel-body">
+                                <form class="form-horizontal">
+                                    <div class="form-group" ng-show="mostrarIdParticipante">
+                                        <label class="control-label col-sm-2"><strong>ID</strong></label>
+                                        <div class="col-sm-1">
+                                            <input type="text" class="form-control" ng-model="response.id" value="" ng-disabled="disabledID"/>
+                                        </div>                                        
+                                    </div>
+                                    {{infoElimina.evento}}
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-2"><strong>Nombres</strong></label>
+                                        <div class="col-sm-9">
+                                            <input type="text" class="form-control" ng-model="infoElimina.evento" placeholder="Nombres del Participante" value="" required/>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <br />
+                                        <br />
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-2"></div>
+                                        <div class="col-sm-10">
+                                            <button type="button" class="btn btn-success btn-sm" ng-click="guardar(response,g.genero,al.alerjico,x.usuario,r.estado)">Guardar</button>
+                                            <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Cancel</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

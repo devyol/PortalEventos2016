@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e9999bc13bc042da95860b75f400c077" Name="Diagram1">
+        <EntityTypeShape EntityType="ModeloEvento.CORRELATIVO" Width="1.5" PointX="9.125" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModeloEvento.INSCRIPCION" Width="1.5" PointX="3.5" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModeloEvento.OPCION_EVENTO" Width="1.5" PointX="3.5" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModeloEvento.PARENTESCO" Width="1.5" PointX="9.125" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModeloEvento.PARTICIPANTE" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModeloEvento.PARTICIPANTE_CONTACTO" Width="1.5" PointX="6" PointY="4.125" IsExpanded="true" />
+        <AssociationConnector Association="ModeloEvento.INSC_PAR_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="ModeloEvento.PARE_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="ModeloEvento.PART_FK" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="ModeloEvento.EVENTO" Width="1.5" PointX="6.25" PointY="10.5" />
+        <AssociationConnector Association="ModeloEvento.INSC_EV_FK" />
+        <AssociationConnector Association="ModeloEvento.REF_EV_FK" />
+        <EntityTypeShape EntityType="ModeloEvento.INSCRIPCION_OPCION" Width="1.5" PointX="0.75" PointY="10" />
+        <AssociationConnector Association="ModeloEvento.INSC_OP_INSC_FK" ManuallyRouted="false" >
+        </AssociationConnector>
+        <AssociationConnector Association="ModeloEvento.INSC_OP_OP_EV_FK" />
+        <EntityTypeShape EntityType="ModeloEvento.MOVIMIENTOS" Width="1.5" PointX="2" PointY="13.875" />
+        <AssociationConnector Association="ModeloEvento.FK_MOV_EV" />
+        <AssociationConnector Association="ModeloEvento.FK_MOV_PAR" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

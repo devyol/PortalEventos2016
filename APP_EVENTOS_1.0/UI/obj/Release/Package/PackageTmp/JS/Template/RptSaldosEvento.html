@@ -1,0 +1,51 @@
+﻿
+
+<div class="row">
+    <div class="col-sm-12">
+        <form class="form-inline">
+            <div class="form-group">
+                <label>Eventos:</label>
+                <select class="form-control" 
+                        ng-options="a.nombre_evento for a in eventos"
+                        ng-model="idEvento"
+                        ng-change="ObtenerSaldos(idEvento)">
+                </select>
+            </div>
+            <div class="form-group" ng-show="verListado">
+                <h2>Total Cobrado {{saldos|sumByKey: 'total'|currency:'Q'}}</h2>
+            </div>     
+        </form>
+    </div>
+</div>
+<br /><br />
+<div ng-show ="verListado">
+
+<!----------------------------------------------Listado de Saldos por Fecha de cada Evento-------------------------------------------------->
+    
+    <div class="row">
+        <div class="col-sm-8">
+            <table class="table table-bordered">            
+                <thead>
+                    <tr>
+                        <th>Fecha</th>
+                        <th>Modo de Pago</th>
+                        <!--<th>Total de Abonos</th>
+                        <th>Total de Devoluciones</th>-->
+                        <th>Total Cobrado</th>                    
+                    </tr>
+                </thead>
+                <tbody ng-repeat="sal in saldos">            
+                    <tr>
+                        <td><small>{{sal.fecha_movimiento}}</small></td>
+                        <td><small>{{sal.tipo_pago}}</small></td>
+                        <!--<td><small>{{sal.total_abonos|currency:'Q'}}</small></td>
+                        <td><small>{{sal.total_cargos|currency:'Q'}}</small></td>-->
+                        <td><small>{{sal.total|currency:'Q'}}</small></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+<!----------------------------------------------Listado de Eventos-------------------------------------------------->
+
+</div>
